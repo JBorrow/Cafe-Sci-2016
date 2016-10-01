@@ -1,9 +1,33 @@
 - title: "How to Make Gin"
   date: "2016-10-22"
-  abstract: "Durham Gin are welcomed to Empty Shop to teach us about the making of gin!"
+  abstract: "Durham Gin are welcomed to Empty Shop to teach us about the making of gin, at 3:45 PM as usual."
   img: "durham_gin.jpg"
 
-- title: "Past test"
-  date: "2016-09-29"
-  abstract: "Test for past cages"
-  img: "test.jpg"
+- title: "The Physics of Motorsport"
+  date: "2016-10-29"
+  abstract: "Professor Richard Bower takes us on a journey through the Physics of Motorsport (3:45 PM, Empty Shop)"
+  img: "phys_motorsport.jpg"
+
+- title: "How the Rhenium-Osmium geochronometer can help petroleum exploration?"
+  date: "2016-11-05"
+  abstract: "Junjie Liu from the Earth Sciences Department is working on the radiometric dating of petroleum systems, come along to find out more at 3:45 PM at Empty Shop"
+  longinfo: "The attempts and achievements of utilizing Re-Os as petroleum generation geochronometer and oil-source tracer so far are often compromised to some extent. Either the source units or the thermal generation history are unclear, in debate or complex. Here in the Re-Os study of Duvernay Petroleum System of Western Canadian Sedimentary Basin, we demonstrate that the Re-Os systematics of crude oil does record the thermal generation of crude oil and serves as an effective inorganic oil-source correlation tool. These conclusions are supported by basin models, biomarker correlation, and the comparison of Os isotopic composition of Duvernay oils with that of some other oil-prone formations. Contacting with formation water seems to have no or very limited influence on oil Re-Os systematics.
+<br/>
+The Re-Os systematics of different polarity sub-fractions of three asphaltene samples is also examined. The aims are to gain better understanding of where the Re and Os are in crude oil and to interpret and predict the influence of different processes on crude oil Re-Os systematics thus the application. Both the Re and Os abundances are found to decrease with polarity, however, there are still more work to be done to understand the Re-Os isotopic systematics."
+
+- title: "Boltzmann Brains"
+  date: "2016-11-19"
+  abstract: "Dr. James Currie, a Particle Physicist, joins us to talk about Boltzmann Brains. Come along at 3:45 PM at Empty Shop to find out more!"
+
+- title: "Life in Low Dimensions"
+  date: "2016-11-26"
+  abstract: "Will Rushworth, a PhD student in the Mathematics Department, will tell us about his research into low dimensional topology - the study of objects in dimensions 1 through 4 and how they fit inside each other. Come along at 3:45 PM in Emtpy Shop to find out more!"
+
+- title: "The Evolution of Human Speech"
+  date: "2016-12-03"
+  abstract: "Dr Adriano Lameria will take us how Human Speech evolved, come along to learn more at 3:45 PM in Empty Shop."
+
+- title: "Cafe Sci Quiz"
+  date: "2016-12-10"
+  abstract: "At the usual time, we'll be having a quiz instead of a talk!"
+

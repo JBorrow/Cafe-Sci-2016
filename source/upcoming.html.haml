@@ -1,0 +1,16 @@
+---
+title: Upcoming Cafes
+---
+
+%h1 Upcoming Cafes
+
+- upcoming = order_cafes(upcoming_cafes)
+- upcoming.each do |cafe|
+  .flex.flex-wrap.mxn2
+    .flex.sm-col-6.lg-col-4.border-box.p2
+      .p1.border.rounded
+        =image_tag cafe.img, :class => "fit"
+        %h5= cafe.title
+        %h6= cafe.date
+        %p= cafe.abstract
+

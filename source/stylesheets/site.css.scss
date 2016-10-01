@@ -6,9 +6,23 @@
 html, body {
 	padding:0;
 	margin:0;
+	width:100%;
+	height:100%;
 }
 
 .content {
 	max-width:50em;
 	margin:auto;
+	height:100%;
 }
+
+.height100 {
+	height:100%;
+}
+
+@media (max-width:40em) { // Break for mobile
+	.height100 {
+		height:auto;
+	}
+}
+

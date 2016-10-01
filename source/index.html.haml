@@ -2,7 +2,7 @@
 title: Home
 ---
 
-%h1 Home
+%h1.topheader Home
 
 %p Cafe Scientifique Durham City is a platform for talks and discussion about science in a relaxed, informal setting. We regularly host academics who are leaders in their field to talk about their research and related interests.
 
@@ -11,7 +11,7 @@ title: Home
 
 %h2 Next Cafe
 
-- next_cafe = order_cafes[0]
+- next_cafe = order_cafes(upcoming_cafes)[0]
 %h3= next_cafe.title
 %h4= next_cafe.date
 =image_tag next_cafe.img

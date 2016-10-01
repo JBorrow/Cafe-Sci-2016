@@ -25,8 +25,24 @@ page '/*.txt', layout: false
 
 # Methods defined in the helpers block are available in templates
 helpers do
-  def order_cafes
-	sorted = data.cafes.sort_by {|cafe| Time.parse(cafe.date).to_i}
+  def upcoming_cafes
+	raw = data.cafes
+	now = Time.now.to_i
+	upcoming = raw.reject {|cafe| Time.parse(cafe.date).to_i < now}
+
+	return upcoming
+  end
+
+  def previous_cafes
+    raw = data.cafes
+	now = Time.now.to_i
+	previous = raw.reject {|cafe| Time.parse(cafe.date).to_i > now}
+
+	return previous
+  end
+
+  def order_cafes(cafes)
+	sorted = cafes.sort_by {|cafe| Time.parse(cafe.date).to_i}
 
 	sorted.each do |cafe|
       cafe.date = Time.parse(cafe.date).strftime("%A %d %B %Y")

@@ -27,7 +27,12 @@ body {
 }
 
 @media (max-width:40em) { // Break for mobile
+	.content {
+		min-height:0;
+	}
+
 	.height100 {
 		height:auto;
+		min-height:0;
 	}
 }

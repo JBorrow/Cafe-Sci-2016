@@ -11,8 +11,13 @@ title: Home
 
 %h2 Next Cafe
 
-- next_cafe = order_cafes(upcoming_cafes)[0]
-%h3= next_cafe.title
-%h4= next_cafe.nicedate
-=image_tag next_cafe.img
-%p= next_cafe.abstract
+- if next_cafe = order_cafes(upcoming_cafes)[0]
+  .p1.border.rounded.card
+    =image_tag next_cafe.img
+    =link_to "/cafes/#{next_cafe.date}.html", :relative => true do
+      %h3= next_cafe.title
+      %h4= next_cafe.nicedate
+      %p= next_cafe.abstract
+
+- else
+  %h3 Sorry, there are no more cafe's for now! Please check back later.

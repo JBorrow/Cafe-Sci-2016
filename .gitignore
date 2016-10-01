@@ -20,3 +20,5 @@
 # Custom
 *.swp
 *.jpg
+source/_google_analytics.html
+*.png

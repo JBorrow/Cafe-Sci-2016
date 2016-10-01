@@ -6,6 +6,8 @@
     %meta{"charset" => "utf-8"}
     %meta{"content" => "width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no", "name" => "viewport"}
 
+    =favicon_tag 'images/favicon.png'
+
     %title= "Cafe Sci Durham City | #{current_page.data.title}"
 
     =partial "basscss.html"
@@ -22,5 +24,8 @@
             =partial "navbar"
           .main.flex-auto.p2
             =yield
+
+    - begin
+      =partial "google_analytics.html"
 
 

@@ -67,6 +67,12 @@ helpers do
 end
 
 # Build-specific configuration
+#
+set :relative_links, true
+set :relative_assets, true
+
+activate :relative_assets
+
 configure :build do
   # Minify CSS on build
   # activate :minify_css

@@ -17,6 +17,18 @@ page '/*.txt', layout: false
 # proxy "/this-page-has-no-template.html", "/template-file.html", locals: {
 #  which_fake_page: "Rendering a fake page with a local variable" }
 
+def nice_date_cafes(cafes)
+  cafes.each do |cafe|
+	cafe.nicedate = Time.parse(cafe.date).strftime("%A %d %B %Y")
+  end
+end
+
+nice_cafes = nice_date_cafes(data.cafes)
+
+nice_cafes.each do |cafe|
+	proxy "/cafes/#{cafe.date}.html", "/cafes/template.html", :locals => {:cafe => cafe}
+end
+
 # General configuration
 
 ###
@@ -25,6 +37,12 @@ page '/*.txt', layout: false
 
 # Methods defined in the helpers block are available in templates
 helpers do
+  def nice_date_cafes(cafes)
+    cafes.each do |cafe|
+	  cafe.nicedate = Time.parse(cafe.date).strftime("%A %d %B %Y")
+    end
+  end
+
   def upcoming_cafes
 	raw = data.cafes
 	now = Time.now.to_i
@@ -44,11 +62,7 @@ helpers do
   def order_cafes(cafes)
 	sorted = cafes.sort_by {|cafe| Time.parse(cafe.date).to_i}
 
-	sorted.each do |cafe|
-      cafe.date = Time.parse(cafe.date).strftime("%A %d %B %Y")
-	end
-
-	return sorted
+	return nice_date_cafes(sorted)
   end
 end
 

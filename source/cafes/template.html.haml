@@ -1,0 +1,10 @@
+%h1= cafe.title
+
+=image_tag cafe.img
+
+%h3= cafe.nicedate
+
+- if cafe.longinfo
+  %p=cafe.longinfo
+- else
+  %p= cafe.abstract

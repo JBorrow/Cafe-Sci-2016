@@ -2,6 +2,7 @@
 # Page options, layouts, aliases and proxies
 ###
 
+require 'time'
 # Per-page layout changes:
 #
 # With no layout
@@ -23,11 +24,17 @@ page '/*.txt', layout: false
 ###
 
 # Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
+helpers do
+  def order_cafes
+	sorted = data.cafes.sort_by {|cafe| Time.parse(cafe.date).to_i}
+
+	sorted.each do |cafe|
+      cafe.date = Time.parse(cafe.date).strftime("%A %d %B %Y")
+	end
+
+	return sorted
+  end
+end
 
 # Build-specific configuration
 configure :build do

@@ -1,0 +1,18 @@
+---
+title: Home
+---
+
+%h1 Home
+
+%p Cafe Scientifique Durham City is a platform for talks and discussion about science in a relaxed, informal setting. We regularly host academics who are leaders in their field to talk about their research and related interests.
+
+%p Anyone is welcome to come along to our free events, be they a student, a member of university staff or a member of the public who has an interest in science! We aim to pitch the talks towards an interested member of the public so even if the talk isn't something you've ever seen before you'll be okay!
+
+
+%h2 Next Cafe
+
+- next_cafe = order_cafes[0]
+%h3= next_cafe.title
+%h4= next_cafe.date
+=image_tag next_cafe.img
+%p= next_cafe.abstract

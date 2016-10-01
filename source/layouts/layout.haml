@@ -1,0 +1,25 @@
+!!! HTML
+
+%html
+  %head
+    %meta{"content" => "IE=edge", "http-equiv" => "X-UA-Compatible"}
+    %meta{"charset" => "utf-8"}
+    %meta{"content" => "width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no", "name" => "viewport"}
+
+    %title= "Cafe Sci Durham City | #{current_page.data.title}"
+
+    =partial "basscss.html"
+
+    =stylesheet_link_tag :site
+    =javascript_include_tag :all
+
+  %body{"class" => page_classes}
+
+    .flex.flex-column
+      .flxed-auto.sm-flex
+        .nav.flex-first
+          =partial "navbar"
+        .main.flex-auto.p2
+          =yield
+
+

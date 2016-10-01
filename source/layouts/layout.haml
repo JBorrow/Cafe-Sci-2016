@@ -15,11 +15,12 @@
 
   %body{"class" => page_classes}
 
-    .flex.flex-column
-      .flxed-auto.sm-flex
-        .nav.flex-first
-          =partial "navbar"
-        .main.flex-auto.p2
-          =yield
+    .content
+      .flex.flex-column
+        .flxed-auto.sm-flex
+          .nav.flex-first
+            =partial "navbar"
+          .main.flex-auto.p2
+            =yield
 
 

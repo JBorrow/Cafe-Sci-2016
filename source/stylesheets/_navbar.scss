@@ -28,6 +28,10 @@
 	padding-bottom:0.5em;
 }
 
+.active {
+	text-decoration:underline;
+}
+
 @media (max-width:40em) {
 	.nav {
 		padding-bottom:2em;

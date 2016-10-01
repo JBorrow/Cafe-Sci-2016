@@ -5,9 +5,9 @@ title: Upcoming Cafes
 %h1 Upcoming Cafes
 
 - upcoming = order_cafes(upcoming_cafes)
-- upcoming.each do |cafe|
-  .flex.flex-wrap.mxn2
-    .flex.sm-col-6.lg-col-4.border-box.p2
+.sm-flex.flex-wrap.mxn2
+  - upcoming.each do |cafe|
+    .sm-col-6.lg-col-4.p2.border-box
       .p1.border.rounded.card
         - if cafe.img
           =image_tag cafe.img, :class => "fit"

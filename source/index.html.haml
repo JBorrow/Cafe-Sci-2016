@@ -13,7 +13,8 @@ title: Home
 
 - if next_cafe = order_cafes(upcoming_cafes)[0]
   .p1.border.rounded.card
-    =image_tag next_cafe.img
+    - if next_cafe.img
+      =image_tag next_cafe.img
     =link_to "/cafes/#{next_cafe.date}.html", :relative => true do
       %h3= next_cafe.title
       %h4= next_cafe.nicedate

@@ -10,7 +10,7 @@ title: Upcoming Cafes
     .sm-col-6.lg-col-4.p2.border-box
       .p1.border.rounded.card
         - if cafe.img
-          =image_tag cafe.img, :class => "fit"
+          =image_tag cafe.img, :class => "fit", :relative => true
         =link_to "/cafes/#{cafe.date}.html", :relative => true do
           %h3= cafe.title
           %h4= cafe.nicedate

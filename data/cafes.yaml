@@ -1,31 +1,42 @@
-- title: "How to Make Gin"
-  date: "2016-10-22"
-  abstract: "Durham Gin are welcomed to Empty Shop to teach us about the making of gin, at 3:45 PM as usual."
-  img: "durham_gin.jpg"
-
 - title: "The Physics of Motorsport"
   date: "2016-10-29"
-  abstract: "Professor Richard Bower takes us on a journey through the Physics of Motorsport (3:45 PM, Empty Shop)"
-  img: "phys_motorsport.jpg"
+  abstract: "Professor Richard Bower takes us on a journey through the Physics of Motorsport (3:45 PM, Empty Shop)."
+  longinfo: "<p>What does Motorsport have to do with Cosmology?  I love the broad span of physics. Both Cosmology and Formula One are a matter of understanding, of seeing through complicated equations to the principles that underly them,  of developing an intuition about how things – in this case, cars and galaxies – will behave under extreme conditions. So while my day job, as a Cosmologist, is understanding the Universe, I have a secret life understanding how racing cars work.
+<p>In this meeting of the Cafe Scientifique, I'll take us on a journey in pursuit of the ultimate racing car. We'll design our racer as a though experiment, applying simple physics to understand the trade-offs that make a car a winner. Our journey will let us understand what makes a car skid and what ultimately limits its lap time. It'll help us understand how real-world cars work, and I hope you'll see the cars roaring around the circuit in a new way.
+<p>The material I'll present formed the basis of a BBC article that I co-wrote with Jenson Button... who knows where this journey might take us next!
+<p>If you require any more information then we would be more than happy to help, please contact us at the email addresses given on the contact page."
+  img: "physics_motorsport.png"
 
-- title: "How the Rhenium-Osmium geochronometer can help petroleum exploration?"
+- title: "Searching for Oil: Radiation!"
   date: "2016-11-05"
   abstract: "Junjie Liu from the Earth Sciences Department is working on the radiometric dating of petroleum systems, come along to find out more at 3:45 PM at Empty Shop"
-  longinfo: "The attempts and achievements of utilizing Re-Os as petroleum generation geochronometer and oil-source tracer so far are often compromised to some extent. Either the source units or the thermal generation history are unclear, in debate or complex. Here in the Re-Os study of Duvernay Petroleum System of Western Canadian Sedimentary Basin, we demonstrate that the Re-Os systematics of crude oil does record the thermal generation of crude oil and serves as an effective inorganic oil-source correlation tool. These conclusions are supported by basin models, biomarker correlation, and the comparison of Os isotopic composition of Duvernay oils with that of some other oil-prone formations. Contacting with formation water seems to have no or very limited influence on oil Re-Os systematics.
-<br/>
-The Re-Os systematics of different polarity sub-fractions of three asphaltene samples is also examined. The aims are to gain better understanding of where the Re and Os are in crude oil and to interpret and predict the influence of different processes on crude oil Re-Os systematics thus the application. Both the Re and Os abundances are found to decrease with polarity, however, there are still more work to be done to understand the Re-Os isotopic systematics."
+  longinfo: "<p>The attempts and achievements of utilizing Re-Os as petroleum generation geochronometer and oil-source tracer so far are often compromised to some extent. Either the source units or the thermal generation history are unclear, in debate or complex. Here in the Re-Os study of Duvernay Petroleum System of Western Canadian Sedimentary Basin, we demonstrate that the Re-Os systematics of crude oil does record the thermal generation of crude oil and serves as an effective inorganic oil-source correlation tool. These conclusions are supported by basin models, biomarker correlation, and the comparison of Os isotopic composition of Duvernay oils with that of some other oil-prone formations. Contacting with formation water seems to have no or very limited influence on oil Re-Os systematics.
+<p>The Re-Os systematics of different polarity sub-fractions of three asphaltene samples is also examined. The aims are to gain better understanding of where the Re and Os are in crude oil and to interpret and predict the influence of different processes on crude oil Re-Os systematics thus the application. Both the Re and Os abundances are found to decrease with polarity, however, there are still more work to be done to understand the Re-Os isotopic systematics."
+  img: "oil_img.png"
 
-- title: "Boltzmann Brains"
+- title: "Mathematics, Reality and Science"
+  date: "2016-11-12"
+  abstract: "Come along at 3:45 in Empty Shop to hear Calum Robson talk about the link between maths and physical concepts and how we can try to interpret our theories (which are in one sense just sets of equations) as having physical meaning, using a framework from Thomist/Scholastic philsophy."
+  longinfo: "<p>When trying to understand how to think about scientific theories, the metaphysical theories of the Middle Ages aren't likely to top the list of places to look. However in my opinion they can be surprisingly useful, and over the course of this talk I hope to convince you of this too. I will start by explaining the metaphysical thought of St. Thomas Aquinas with the help of cat pictures. I will then explain how this can be used as a framework for thinking about how scientific theories work. Finally I will specialise to my own subject area, and show how this framework can be used to explain the relationship between mathematics and physics"
+  img: "physics_real_life.png"
+
+- title: "Are you a Boltzmann Brain?"
   date: "2016-11-19"
   abstract: "Dr. James Currie, a Particle Physicist, joins us to talk about Boltzmann Brains. Come along at 3:45 PM at Empty Shop to find out more!"
+  img: "boltzmann_brains.png"
+  longinfo: "<p>Why does the past look different from the future? The laws of physics work just as well in 'play' or 'rewind' so why does our experience of time march so relentlessly in one direction? Following the work of Ludwig Boltzmann (1844-1906) we now understand that the right question to ask is “why was the entropy of the early universe so low?”. Boltzmann offered a solution to this (still unsolved) problem in 1895 but it was later realised that this solution gives rise to “Boltzmann Brains”. What is a Boltzmann Brain, why might they be a problem for science and are you one of them?! We will look at what these enigmatic creatures have to teach us about the big bang and the ultimate fate of the universe"
 
 - title: "Life in Low Dimensions"
   date: "2016-11-26"
   abstract: "Will Rushworth, a PhD student in the Mathematics Department, will tell us about his research into low dimensional topology - the study of objects in dimensions 1 through 4 and how they fit inside each other. Come along at 3:45 PM in Emtpy Shop to find out more!"
+  img: "trefoil.png"
+  longinfo: "Topology is a branch of mathematics that claims to study the 'shape' of things; how do the mathematical notions of shape, size, and space relate to their everyday counterparts?<br/>
+      We'll see what exactly mathematicians mean by dimension, and look at examples of objects in dimension 0 through to 4. We'll also give some examples as to why one might stop at 4 - which is perhaps surprising given that we can easily define 10,000 dimensional things! We'll complicate things further by finding ways to fit lower dimensional things into higher dimensional things, and attempt to grasp what it might 'look like'. As the mathematician Dror Bar-Natan says, 'the working mathematician fears complicated words but loves pictures and diagrams'; we'll be following his advice and drawing a lot of them!"
 
 - title: "The Evolution of Human Speech"
   date: "2016-12-03"
-  abstract: "Dr Adriano Lameria will take us how Human Speech evolved, come along to learn more at 3:45 PM in Empty Shop."
+  abstract: "Dr Adriano Lameira will take us how Human Speech evolved, come along to learn more at 3:45 PM in Empty Shop."
+  img: "human_speech.png"
 
 - title: "Cafe Sci Quiz"
   date: "2016-12-10"

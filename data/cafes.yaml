@@ -43,3 +43,17 @@
   date: "2016-12-10"
   abstract: "At the usual time, we'll be having a quiz instead of a talk!"
 
+- title: "Literary Theory"
+  date: "2017-02-04"
+  img: "literary_theory.png"
+  abstract: "Jack Coopey will be giving an introduction to literary theory at the cafe; a bit of a departure from our usual talks! We'll meet at 3:45 pm in Empty Shop, as usual."
+
+- title: "Map Colouring in the 21st Century"
+  img: "fcthm.png"
+  date: "2017-02-18"
+  abstract: "Dr. Barnaby Martin from the computer science department will be giving a brief history of a famous cartographic problem and use this as a vehicle to discuss one of the biggest open questions in mathematics today."
+
+- title: "The Invisibility of Breathlessness – physiology, perception, politics"
+  date: "2017-02-25"
+  img: "life_of_breath.png"
+  abstract: "Prof. Jane McNaughton will be giving an overview of the Life of Breath project"

@@ -5,9 +5,9 @@ title: Previous Cafes
 %h1 Previous Cafes
 
 - previous = order_cafes(previous_cafes)
-.flex.flex-wrap.mxn2
+.sm-flex.flex-wrap.mxn2
   - previous.each do |cafe|
-    .flex.sm-col-6.lg-col-4.border-box.p2
+    .sm-col-6.lg-col-4.border-box.p2
       .p1.border.rounded.card
         - if cafe.img
           =image_tag cafe.img, :class => "fit", :relative => true
